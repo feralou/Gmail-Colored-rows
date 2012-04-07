@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "js": [ "js/jquery-1.7.1.min.js", "js/run.js"],
+      "matches": [ "http://*.gmail.com/*", "https://*.gmail.com/*", "http://mail.google.com/*", "https://mail.google.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Colored rows",
+   "icons": {
+      "128": "icon128.png"
+   },
+   "name": "Gmail Colored rows",
+   "version": "0.1"
+}
