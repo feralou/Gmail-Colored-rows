@@ -8,6 +8,10 @@
    "icons": {
       "128": "icon128.png"
    },
+   "options_page": "options.html",
+   "background": {
+    "scripts": ["js/background.js"]
+  },
    "name": "Gmail Colored rows",
    "version": "0.1"
 }
